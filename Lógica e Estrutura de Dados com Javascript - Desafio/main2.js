@@ -5,7 +5,8 @@ let myOrders = [
     { nome: 'Luís', idade: 22, cargo: 'estudante da otterwise' },
     { nome: 'Silvia', idade: 53, cargo: 'professora' },
     { nome: 'Neusa', idade: 83, cargo: 'aposentada' },
-    { nome: 'Felipe', idade: 20, cargo: 'estudante' }
+    { nome: 'Felipe', idade: 20, cargo: 'estudante' },
+    { nome: 'Ana', idade: 16, cargo: 'lixeira' }
 ]
 
 const indexTotal = Number(myOrders.length)
