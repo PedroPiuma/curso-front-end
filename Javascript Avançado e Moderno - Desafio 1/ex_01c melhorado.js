@@ -8,13 +8,11 @@ const colaboradores = [
 ]
 
 // Exercício 1d
-let maisVelho = [['user', 200, 'default']]
-console.log(maisVelho[maisVelho.length - 1][1])
-
-const criadorDeArray = colaboradores.map(e => {
-    if (e.idade <= maisVelho[maisVelho.length - 1][1])
-        return maisVelho.push(Object.values(e))
-})
-
-console.log(maisVelho)
-
+const cargos = {
+    estagiarios: colaboradores.filter(e => e.cargo === 'estagiario'),
+    fronts: colaboradores.filter(e => e.cargo === 'front-end'),
+    backs: colaboradores.filter(e => e.cargo === 'back-end'),
+    designers: colaboradores.filter(e => e.cargo === 'designer'),
+}
+const all = cargos.estagiarios.concat(cargos.fronts, cargos.backs, cargos.designers)
+console.log(all)

@@ -1,0 +1,15 @@
+{
+  "name": "ex_aula_07",
+  "version": "1.0.0",
+  "description": "Exercício de JavaScript Avançado e Moderno - Aula 07",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Luís Piúma",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
