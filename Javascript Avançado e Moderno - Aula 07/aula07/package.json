@@ -1,0 +1,15 @@
+{
+  "name": "aula07",
+  "version": "1.0.0",
+  "description": "Projeto para aprendizado de pacotes",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js"
+  },
+  "author": "Luís Piúma",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
