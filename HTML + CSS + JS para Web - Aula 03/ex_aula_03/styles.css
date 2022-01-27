@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+nav ul li{
+    margin: 20px 0;
+}
+
+a {
+    color: white;
+    /*text-align: center;*/
+    padding: 5px;
+    background-color: darkcyan;
+}
+
+form {
+    padding: 20px;
+    background-color: darkgray;
+    width: 380px;
+}
+
+form input {
+    margin: 15px 0
+}
+
+.title {
+    line-height: 18px;
+    font-size: 14px;
+    color: darkcyan;
+}
+
+form button {
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+    border-style: none;
+}

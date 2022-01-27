@@ -1,0 +1,28 @@
+selector:hover {
+/*Quando o mouse estiver em cima do elemento.*/
+    property: value;
+}
+
+selector:disabled {
+    /*Quando o mouse estiver desabilitado.*/
+    property: value;
+
+}
+
+selector:empty {
+    /*Quando o elemento não possuir elementos-filho.*/
+    property: value;
+
+}
+
+selector:first-child {
+    /*Seleciona primeiro elemento.*/
+    property: value;
+
+}
+
+selector:nth-child(i) {
+    /*Seleciona o elemento de índice i (começa em 1)*/
+    property: value;
+
+}

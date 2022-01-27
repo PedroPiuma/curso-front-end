@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.paragrafo {
+    line-height: 30px;
+    margin: 30px;
+    padding: 10px;
+}
+
+a:hover {
+    color: green;
+}
+
+.paragrafo:first-child {
+    font-weight: bold;
+}
+
+nav li:nth-child(2n-1) {
+    font-weight: bold;
+}
