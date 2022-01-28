@@ -1,0 +1,34 @@
+/*
+display: flex
+    Define que o elemento é um flex container, consequentemente,
+    todos os seus elementos-filhos são flex items.
+
+flex-direction: [row (default) | column | row-reverse | column-reverse]
+    Define qual eixo será o eixo principal do flex container.
+
+justify-content: [fle-start (default) | flex-end | center | space-between | space-around | space-evenly | ...]
+    Define a distribuição (alinhamento) dos flex items no container no eixo principal.
+
+align-items: [ stretch (default) | flex-start | flex-end | center | baseline | ... ]
+    Define a distruibuição (alinhamento) dos flex items no container no eixo transversal.
+
+flex-wrap: [ nowrap (default) | wrap | wrap-reverse ]
+    Define se o container será multilinhas e em que ordem as linhas devem aparecer.
+
+align-content: [ normal (default) | flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | ...]
+    Quando os itens no flex container ocuparem mais de uma linha, essa propriedade define o alinhamento entre as linhas.
+
+
+
+Propriedades CSS para Flex Items
+order:n (default: 0)
+    Define a ordem (peso) que o item deve aparecer no flex container.
+
+flex-grow: n (default: 0)
+    Caso o flex container permita que os flex items cresçam,
+    define a proporção que o item crescerá em relação aos outros.
+
+align-self: [ auto | flex-start | center | baseline | stretch ]
+    Sobrescreve a comportamento de alinhamento do item definido pelo
+    container na propriedade align-itens.
+*/
