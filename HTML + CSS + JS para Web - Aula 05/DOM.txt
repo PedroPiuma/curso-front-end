@@ -1,0 +1,86 @@
+windows.onload
+    Função que será executada assim que o documento for carregado.
+    Utilizado para sincronizarmos nossos scripts e não precisar colocar
+    os elementos script somente no final do documento HTML.
+
+window.document
+    Referência aos documentos carregados na janela do navegador. 
+
+window.innerHeight
+    Valor da altura da página carregada no navegador em pixels.
+
+window.innerWidth
+    Valor da largura da página carregada no navegador em pixels.
+
+
+MÉTODOS DE DOCUMENT:
+    document.createElement(element)
+        Cria e retorna um elemento HTML do tipo passado como argumento.
+        Ex.: const paragrafo = document.createElement("p")
+    
+    document.getElementById(id)
+        Retorna o elemento com o id passado como argumentocaso encontre,
+        caso contrário retorna null.
+
+    document.getElementsByTagName(name)
+        Retorna um "array" de elementos do tipo name.
+
+
+MÉTODOS DE ELEMENT
+    parentElement.removeChild(element)
+        Remove o elemento passado como argumento que seja filho
+        do elemento parentElement.
+    
+    parentElement.appendChild(element)
+        Adiciona o elemento passado como argumento como último
+        filho do elemento parentElement.
+
+    element.remove()
+        Remove o elemento.
+
+    element.getAttribute(attributename)
+        Retorna o valor do atributo attributename do elemento.
+
+    element.hasAttribute(attributename)
+        Retorna true se o elemento tem o atributo attributename
+        e false caso contrário.
+
+    element.hasAttributes()
+        Retorna true se o elemento tem atributos e false caso contrário.
+
+    element.setAttribute(attributename, attributevalue)
+        Adiciona o atributo no elemento.
+
+    element.removeAttribute(attributename)
+        Remove o atributo no elemento.
+
+
+ATRIBUTOS DE ELEMENT
+    element.innerText
+        Texto do elemento (tanto para acessar quanto para modificar).
+
+    element.innerHTML
+        HTML do elemento (tanto para acessar quanto para modificar).
+
+    element.parentElement
+        Elemento pai de element.
+
+
+MÉTODOS DE SELEÇÃO DE ELEMENTOS
+    element.querySelector(selector)
+        Retorna o primeiro elemento que satisfaz o seletor especificado.
+        Utilizado o mesmo tipo de seletor do CSS.
+        Pode ser utilizado com document também.
+
+    element.querySelectorAll(selector)
+        Retorna um "array" com elementos que satisfaçam o seletor especificado.
+        Utilizado o mesmo tipo de seletor do CSS.
+        Pode ser utilizado com document também.
+
+
+MÉTODOS
+    element.addEventListener(event, function, useCapture)
+        Adiciona uma função para ser executada quando o evento especificado ocorrer.
+
+    element.click()
+        Simula um clique no elemento.

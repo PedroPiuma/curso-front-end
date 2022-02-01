@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.paragrafo {
+    line-height: 30px;
+    margin: 30px;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(17, 13, 241);
+}
+
+.paragrafo:first-child {
+    font-weight: bold;
+}
+
+nav * {
+    font-weight: bold;
+    color: white;
+}
+
+nav li {
+    width: 200px;
+}
+
+#otterwise {
+    flex-grow: 1;
+}
+
+nav ul {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+a {
+    background-color: tomato;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        /*display: none;*/
+        background-color: black;
+        height: 100px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 360px) {
+    #primeiro-paragrafo {
+        font-size: 14px;
+    }
+}
