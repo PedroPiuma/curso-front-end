@@ -1,4 +1,18 @@
 #formulario {
     display: flex;
-    
+    flex-direction: column;
+}
+
+#formulario div {
+    padding: 5px 0;
+}
+
+#visor {
+    max-width: 300px;
+}
+
+#valorSalvo {
+    color: rgb(2, 125, 248);
+    width: 80px;
+    padding: 1px 5px;
 }

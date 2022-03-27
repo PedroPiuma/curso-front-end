@@ -10,4 +10,4 @@ function checkZero(num) {
 
 }
 
-checkZero(0)
+checkZero(1)

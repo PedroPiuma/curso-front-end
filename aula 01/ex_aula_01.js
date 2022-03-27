@@ -14,4 +14,4 @@ let resultadoOr = true || false;
 console.log(resultadoOr);
 
 // E
-console.log(!true);
+console.log(!!true);

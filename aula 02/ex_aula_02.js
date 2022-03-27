@@ -11,6 +11,7 @@ function checkSignal(x) {
 
 checkSignal(-99)
 checkSignal(42)
+checkSignal(0)
 
 // 2
 function double(num) {
